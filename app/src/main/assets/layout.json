@@ -1,0 +1,515 @@
+{
+  "type": "ScrollView",
+  "android": "http://schemas.android.com/apk/res/android",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "fillViewport": "true",
+  "children": [
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "orientation": "vertical",
+      "children": [
+        {
+          "type": "CardView",
+          "id": "categoryLayout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "children": [
+            {
+              "type": "HorizontalScrollView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "scrollbars": "none",
+              "children": [
+                {
+                  "type": "LinearLayout",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "orientation": "horizontal",
+                  "padding": "5dp",
+                  "children": [
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "All Categories",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Offer Zone",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Mobiles",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Fashion",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Electronics",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Home",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "match_parent",
+                      "layout_height": "wrap_content",
+                      "layout_margin": "3dp",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "src": "@drawable/ic_baseline_sync_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "lines": "1",
+                          "padding": "5dp",
+                          "text": "Beauty",
+                          "textColor": "#000000",
+                          "textSize": "10dp"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CardView",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_marginTop": "10dp",
+          "children": [
+            {
+              "type": "ImageView",
+              "layout_width": "match_parent",
+              "layout_height": "120dp",
+              "padding": "10dp",
+              "src": "@drawable/car"
+            }
+          ]
+        },
+        {
+          "type": "CardView",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_marginTop": "10dp",
+          "children": [
+            {
+              "type": "HorizontalScrollView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "scrollbars": "none",
+              "children": [
+                {
+                  "type": "LinearLayout",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "orientation": "horizontal",
+                  "children": [
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "100dp",
+                      "layout_height": "wrap_content",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "80dp",
+                          "layout_gravity": "center",
+                          "padding": "10dp",
+                          "src": "@drawable/ic_baseline_settings_applications_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "text": "Toys"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "100dp",
+                      "layout_height": "wrap_content",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "80dp",
+                          "layout_gravity": "center",
+                          "padding": "10dp",
+                          "src": "@drawable/ic_baseline_settings_applications_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "singleLine": "true",
+                          "text": "Baby Care Essentials"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "100dp",
+                      "layout_height": "wrap_content",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "80dp",
+                          "layout_gravity": "center",
+                          "padding": "10dp",
+                          "src": "@drawable/ic_baseline_settings_applications_24"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "padding": "5dp",
+                          "text": "Power Banks"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CardView",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_marginTop": "10dp",
+          "children": [
+            {
+              "type": "LinearLayout",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "layout_margin": "15dp",
+              "orientation": "vertical",
+              "children": [
+                {
+                  "type": "TextView",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "background": "@color/light_grey",
+                  "gravity": "center",
+                  "padding": "10dp",
+                  "text": "Top Selections",
+                  "textColor": "#000000",
+                  "textStyle": "bold"
+                },
+                {
+                  "type": "LinearLayout",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "weightSum": "2",
+                  "children": [
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "0dp",
+                      "layout_height": "match_parent",
+                      "layout_margin": "8dp",
+                      "layout_weight": "1",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "120dp",
+                          "layout_height": "120dp",
+                          "layout_gravity": "center",
+                          "src": "@drawable/audi"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Audi Car"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Explre Now!",
+                          "textColor": "#FF1C9A00"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "0dp",
+                      "layout_height": "match_parent",
+                      "layout_margin": "8dp",
+                      "layout_weight": "1",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "120dp",
+                          "layout_height": "120dp",
+                          "layout_gravity": "center",
+                          "src": "@drawable/ford"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Ford Car"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Explre Now!",
+                          "textColor": "#FF1C9A00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "LinearLayout",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "weightSum": "2",
+                  "children": [
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "0dp",
+                      "layout_height": "match_parent",
+                      "layout_margin": "8dp",
+                      "layout_weight": "1",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "120dp",
+                          "layout_height": "120dp",
+                          "layout_gravity": "center",
+                          "src": "@drawable/vols"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Volkswagen Car"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Explre Now!",
+                          "textColor": "#FF1C9A00"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LinearLayout",
+                      "layout_width": "0dp",
+                      "layout_height": "match_parent",
+                      "layout_margin": "8dp",
+                      "layout_weight": "1",
+                      "orientation": "vertical",
+                      "children": [
+                        {
+                          "type": "ImageView",
+                          "layout_width": "120dp",
+                          "layout_height": "120dp",
+                          "layout_gravity": "center",
+                          "src": "@drawable/car"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Mercedes-Benz"
+                        },
+                        {
+                          "type": "TextView",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "layout_gravity": "center",
+                          "text": "Explre Now!",
+                          "textColor": "#FF1C9A00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

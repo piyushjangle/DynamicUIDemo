@@ -1,0 +1,133 @@
+{
+  "type": "LinearLayout",
+  "android": "http://schemas.android.com/apk/res/android",
+  "layout_width": "match_parent",
+  "layout_height": "wrap_content",
+  "layout_margin": "5dp",
+  "orientation": "vertical",
+  "children": [
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "orientation": "horizontal",
+      "padding": "5dp",
+      "children": [
+        {
+          "type": "ImageView",
+          "layout_width": "100dp",
+          "layout_height": "100dp",
+          "layout_gravity": "center_vertical",
+          "padding": "10dp",
+          "src": "@drawable/car"
+        },
+        {
+          "type": "LinearLayout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_gravity": "center",
+          "orientation": "vertical",
+          "children": [
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "text": "Mercedes-Benz",
+              "textSize": "18dp",
+              "textStyle": "bold"
+            },
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "text": "Mercedes-Benz is both a German automotive marque and, from late 2019 onwards, a subsidiary of Daimler AG. Mercedes-Benz is known for producing luxury vehicles and commercial vehicles. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "orientation": "horizontal",
+      "padding": "5dp",
+      "children": [
+        {
+          "type": "ImageView",
+          "layout_width": "100dp",
+          "layout_height": "100dp",
+          "layout_gravity": "center_vertical",
+          "padding": "10dp",
+          "src": "@drawable/vols"
+        },
+        {
+          "type": "LinearLayout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_gravity": "center",
+          "orientation": "vertical",
+          "children": [
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "text": "Volkswagen",
+              "textSize": "18dp",
+              "textStyle": "bold"
+            },
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "text": "Volkswagen, shortened to VW, is a German automaker founded in 1937 by the German Labour Front, known for the iconic Beetle and headquartered in Wolfsburg."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "orientation": "horizontal",
+      "padding": "5dp",
+      "children": [
+        {
+          "type": "ImageView",
+          "layout_width": "100dp",
+          "layout_height": "100dp",
+          "layout_gravity": "center_vertical",
+          "padding": "10dp",
+          "src": "@drawable/ford"
+        },
+        {
+          "type": "LinearLayout",
+          "layout_width": "match_parent",
+          "layout_height": "wrap_content",
+          "layout_gravity": "center",
+          "orientation": "vertical",
+          "children": [
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "text": "Ford",
+              "textSize": "18dp",
+              "textStyle": "bold"
+            },
+            {
+              "type": "TextView",
+              "layout_width": "match_parent",
+              "layout_height": "wrap_content",
+              "text": "Ford Motor Company, commonly known as Ford, is an American multinational automaker that has its main headquarters in Dearborn, Michigan, a suburb of Detroit."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
